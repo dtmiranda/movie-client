@@ -6,7 +6,7 @@ import './Trailer.css'
 
 const Trailer = () => {
 
-  let params = userParams();
+  let params = useParams();
   let key = params.youtubeTrailerId;
 
   return (
